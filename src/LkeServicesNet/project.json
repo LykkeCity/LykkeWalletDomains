@@ -2,9 +2,8 @@
   "version": "1.0.0",
 
   "dependencies": {
-    "Lykke.Common": "1.0.36",
-    "MailKit": "1.10.0",
-    "Autofac": "4.2.0",
+    "Lykke.Common": "1.0.42",
+    "MailKit": "1.10.0",    
     "Core": "1.0.0"
   },
 

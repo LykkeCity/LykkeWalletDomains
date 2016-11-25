@@ -15,8 +15,7 @@
     "NBitcoin": "3.0.0.72",
     "protobuf-net": "2.1.0",
     "RazorLight": "1.0.0-rc1",
-    "Neostore.ImageSharp": "1.0.0",
-    "Autofac": "4.2.0",
+    "Neostore.ImageSharp": "1.0.0",    
     "Core": "1.0.0",
     "TcpSockets": "1.0.0"
   },
