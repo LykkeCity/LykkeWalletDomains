@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "dependencies": {
+    "CoreCompat.System.Drawing": "1.0.0-beta006",
+    "Newtonsoft.Json": "9.0.1",
+    "runtime.linux-x64.CoreCompat.System.Drawing": "1.0.0-beta009"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.1"
+        }
+      }
+    }
+  }
+}

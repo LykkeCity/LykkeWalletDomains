@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.1"
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "Microsoft.Extensions.PlatformAbstractions": "1.0.0",
+    "NBitcoin": "3.0.0.72",
+    "protobuf-net": "2.1.0",
+    "RazorLight": "1.0.0-rc1",
+    "Neostore.ImageSharp": "1.0.0",
+    "Autofac": "4.2.0",
+    "Core": "1.0.0",
+    "TcpSockets": "1.0.0"
+  },
+  "buildOptions": {
+    "embed": {
+      "include": [
+        "Messages/EmailTemplates/*.cshtml",
+        "Messages/EmailTemplates/Html/*.html",
+        "Messages/SmsTemplates/*.cshtml"
+      ]
+    }
+  },
+  "publishOptions": {
+    "include": [
+      "Messages/EmailTemplates/*.cshtml",
+      "Messages/EmailTemplates/Html/*.html",
+      "Messages/SmsTemplates/*.cshtml"
+    ]
+  }
+}
