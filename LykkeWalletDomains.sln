@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Core", "src\Core\Core.xproj", "{B682D635-BF74-4083-BA9F-5CE196F19F19}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Core", "src\Lykke.Core\Core.xproj", "{B682D635-BF74-4083-BA9F-5CE196F19F19}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LkeServices", "src\LkeServices\LkeServices.xproj", "{DA97291E-0B6F-4CEB-B2B8-1071FC182936}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LkeServices", "src\Lykke.LkeServices\LkeServices.xproj", "{DA97291E-0B6F-4CEB-B2B8-1071FC182936}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TcpSockets", "src\TcpSockets\TcpSockets.xproj", "{A12B953F-5AAA-49BC-A5AC-B9A6D62F775E}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TcpSockets", "src\Lykke.TcpSockets\TcpSockets.xproj", "{A12B953F-5AAA-49BC-A5AC-B9A6D62F775E}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LkeServicesNet", "src\LkeServicesNet\LkeServicesNet.xproj", "{3A715EB4-375D-4C0F-A87A-4612B335C2CC}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LkeServicesNet", "src\Lykke.LkeServicesNet\LkeServicesNet.xproj", "{3A715EB4-375D-4C0F-A87A-4612B335C2CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

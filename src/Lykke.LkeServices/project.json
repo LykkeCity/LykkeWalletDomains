@@ -16,8 +16,8 @@
     "protobuf-net": "2.1.0",
     "RazorLight": "1.0.0-rc1",
     "Neostore.ImageSharp": "1.0.0",    
-    "Core": "1.0.0",
-    "TcpSockets": "1.0.0"
+    "Lykke.Core": "1.0.0",
+    "Lykke.TcpSockets": "1.0.0"
   },
   "buildOptions": {
     "embed": {
